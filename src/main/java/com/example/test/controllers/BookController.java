@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/v1/books")
 public class BookController {
 
-    //TODO 4 fix saveBook exception
+    //TODO 2 fix saveBook exception
     BookService bookService;
 
     @PostMapping
@@ -22,7 +22,7 @@ public class BookController {
 
     }
 
-    //TODO 5 finish code to display list of book name from Google book api "https://www.googleapis.com/books/v1/volumes?maxResults=5&orderBy=relevance&q=oliver%20sacks"
+    //TODO 3 finish code to display list of book name from Google book api "https://www.googleapis.com/books/v1/volumes?maxResults=5&orderBy=relevance&q=oliver%20sacks"
     @GetMapping(path="/google")
     public ResponseEntity<List<BookVO>> retrieveGoogleBooks(@RequestHeader String requestId){
         return new ResponseEntity<>( HttpStatus.OK);

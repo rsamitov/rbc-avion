@@ -7,13 +7,13 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    //TODO 3 add configuration to change default spring security password
+    //TODO 6 add configuration to change default spring security password
 
 
-    //TODO 2 add configuration to bypass security for /v1/demo, all others require basic authentication
+    //TODO 5 add configuration to bypass security for /v1/demo, all others require basic authentication
     @Override
     public void configure(HttpSecurity http) throws Exception {
 
-        http.csrf().disable().authorizeRequests().antMatchers("/**").authenticated().and().httpBasic();
+        http.csrf().disable().authorizeRequests().antMatchers("/**").permitAll();
     }
 }

@@ -23,7 +23,7 @@ public class BookService {
         return bookVO;
     }
 
-    //TODO 6 use feign client bookAdapter to retrieve books
+    //TODO 5 use feign client bookAdapter to retrieve books
     public List<BookVO> retrieveBookFromGoogle() {
         return new ArrayList<>();
     }

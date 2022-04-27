@@ -19,11 +19,8 @@ fix saveBook method exception
 See TODO 4
 
 ### Task5
-Add configuration to expose swagger
 See TODO 5
-
-### Task6
 Add code to get book list from Google book api "https://www.googleapis.com/books/v1/volumes?maxResults=5&orderBy=relevance&q=oliver%20sacks"
 
-### Task 7 Bonus
+### Task6 Bonus
 Add test cases to the project

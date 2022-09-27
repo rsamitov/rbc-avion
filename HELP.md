@@ -20,8 +20,11 @@ Add test cases to the project
 
 ### Task5 Bonus
 Add configuration to bypass security for /v1/demo, all others requires authentication
-See TODO 2
+See TODO 5
 
 ### Task6 Bonus
 Add configuration to change default spring security password
-See TODO 3
+See TODO 6
+
+### Task 7 Bonus
+Create a docker image and run it from command line

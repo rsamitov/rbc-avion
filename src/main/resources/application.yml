@@ -8,3 +8,8 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 8081
+logging:
+  level:
+    org.springframework.security: debug

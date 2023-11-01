@@ -1,0 +1,18 @@
+### Task 1
+GET http://localhost:8081/v1/demo
+requestId: someId
+
+### Task 2
+POST http://localhost:8081/v1/books
+requestId: someId
+Content-Type: application/json
+
+{
+  "id": 999,
+  "name": "Some book"
+}
+
+### Task 3
+GET http://localhost:8081/v1/books/google
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+requestId: someId
